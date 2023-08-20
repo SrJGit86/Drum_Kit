@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>The Drum 🥁 Kit</h1>
+    <div class="drums">
+        <button onclick="w()" class="drum w">w</button>
+        <button onclick="a()" class="drum a">a</button>
+        <button onclick="s()" class="drum s">s</button>
+        <button onclick="d()" class="drum d">d</button>
+        <button onclick="j()" class="drum j">j</button>
+        <button onclick="k()" class="drum k">k</button>
+        <button onclick="l()" class="drum l">l</button>
+    </div>
+
+    <footer>
+        <span>Made By SrJ</span>
+    </footer>
+    <script>
+        function w() {
+            let audio = new Audio("assets/sound/tom-1.mp3");
+            audio.play();
+        }
+
+        function a() {
+            let audio = new Audio("assets/sound/tom-2.mp3");
+            audio.play();
+        }
+
+        function s() {
+            let audio = new Audio("assets/sound/tom-3.mp3");
+            audio.play();
+        }
+
+        function d() {
+            let audio = new Audio("assets/sound/tom-4.mp3");
+            audio.play();
+        }
+
+        function j() {
+            let audio = new Audio("assets/sound/snare.mp3");
+            audio.play();
+        }
+
+        function k() {
+            let audio = new Audio("assets/sound/crash.mp3");
+            audio.play();
+        }
+
+        function l() {
+            let audio = new Audio("assets/sound/kick-bash.mp3");
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  html {
+      font-size: 10rem;
+  }
+  
+  body {
+      text-align: center;
+      background-color: rgb(148, 83, 105);
+      font-family: 'Pacifico', cursive;
+  }
+  
+  h1 {
+      font-size: 0.5rem;
+  }
+  
+  .w {
+      background-image: url(./assets/tom1.png);
+  }
+  
+  .a {
+      background-image: url(./assets/tom2.png);
+  }
+  
+  .s {
+      background-image: url(./assets/tom3.png);
+  }
+  
+  .d {
+      background-image: url(./assets/tom4.png);
+  }
+  
+  .j {
+      background-image: url(./assets/snare.png);
+  }
+  
+  .k {
+      background-image: url(./assets/crash.png);
+  }
+  
+  .l {
+      background-image: url(./assets/kick.png);
+  }
+  
+  .drums {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      column-gap: 0.1rem;
+      margin: 0.5rem;
+  }
+  
+  .drum {
+      height: 1rem;
+      width: 1rem;
+      outline: none;
+      border: 10px solid rgb(52, 52, 104);
+      border-radius: 0.1rem;
+      line-height: 3;
+      font-weight: 900;
+      font-size: 0.4rem;
+      text-shadow: 3px 0 white;
+      color: rgb(255, 0, 179);
+      font-family: 'Pacifico', cursive;
+      /* margin: 0 0.1rem 0 0.1rem; */
+  }
+  
+  footer {
+      font-size: 0.1rem;
+      color: rgb(43, 0, 0);
+  }
